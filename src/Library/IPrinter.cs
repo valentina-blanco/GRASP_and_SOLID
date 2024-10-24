@@ -3,7 +3,7 @@ namespace Full_GRASP_And_SOLID
 {
     public interface IPrinter
     {
-         /// <summary>
+        /// <summary>
         /// Modificamos el parámetro para que dependa de la clase abstracta PrintRecipe y no sólo de la clase Recipe
         /// </summary>
         /// <param name="recipe"></param>

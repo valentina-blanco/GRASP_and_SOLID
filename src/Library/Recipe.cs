@@ -9,6 +9,10 @@ using System.Collections.Generic;
 
 namespace Full_GRASP_And_SOLID
 {
+    /// <summary>
+    /// Esta clase ahora implementará el tipo PrintRecipe, con el fín de cumplir con el principio DIP, y hacer que las clases de más alto nivel no dependan de ella, sino de la abstracción.
+    /// </summary>
+    /// 
     public class Recipe: PrintRecipe
     {
         // Cambiado por OCP
